@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .container .accordion .content {
+  display: none;
+}
+body .container .accordion .btn .title {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .accordion .btn .title i {
+  font-size: 29px;
+  transform: rotate(0deg);
+  transition: 1s;
+  float: right;
+}
+body .container .accordion .btn.active .title i {
+  transform: rotate(180deg);
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */
